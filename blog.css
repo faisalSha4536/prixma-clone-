@@ -1,0 +1,141 @@
+
+/* BANNER-IMG */
+
+.blog-img-banner{
+  background-image: url(./img/blogpage-banner-image.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+.blog-img{
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.blog-img-banner h1{
+  color: white !important;
+  font-size: 46px;
+}
+
+/* BANNER URL */
+.banner-url{
+  background-color: #fd6c4fb9;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  
+  }
+  .url{
+    display: flex;
+    text-align: center;
+  }
+  .url a{
+margin-left: 55px;
+font-size: 20px;
+color:black !important;
+
+
+  }
+ 
+
+  /* WELLCOM BLOG */
+  .wellcome-blog{
+    padding: 250px;
+  }
+
+  .wellcome-blog img{
+    min-height: 100vh;
+
+  }
+  .wellcome-blog .text-wrapper{
+   justify-content: center;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    width: 300px;
+  }
+  .wellcome-blog .text-wrapper h1{
+    font-size: 45px;
+  }
+
+
+  /* FAVROUITE TIPS */
+
+  .fav-tips{
+    margin-bottom: 100px;
+  }
+  .fav-tips-text{
+    color: tomato;
+
+    text-align: center;
+  }
+  .fav-tips h1{
+    font-size: 60px;
+    color: tomato;
+  }
+  .fav-tips h4{
+    color: tomato;
+  }
+  .blog-text-wrapper a{
+    text-decoration: none;
+  }
+
+
+  /* STAY AND PLAY */
+  .stay-play-text {
+  position: absolute;
+  bottom: 20px;
+  left: 0px;  
+  background-color: rgba(255, 255, 255, 0.568);
+  padding-left: 5px;
+  padding-right: 15px;
+  }
+  .stay-play-imge{
+    position: relative;
+    margin-bottom: 50px;
+  }
+
+  .banner-url2{
+    
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-bottom: 100px;
+    }
+    .url{
+      display: flex;
+      text-align: center;
+    }
+    .url a{
+  margin-left: 55px;
+  font-size: 20px;
+  color: #fd6c4fb9;
+  
+    }
+
+    /* PHOTOGRAPH */
+
+    .photograph-text h5{
+      color: tomato;
+      padding-top: 30px;
+      text-align: center;
+    }
+    .photograph-text a{
+      text-decoration: none;
+      padding:5px 25px;
+      text-align: center;
+    }
+    .photograph-text .btn{
+      
+      text-align: center;
+    }
+    
+    
+    .wellcome-blog2 .text-wrapper h1{
+      font-size: 45px;
+    }
+    .wellcome-blog2 .btn{
+      display: block;
+      margin-top: 20px;
+    }
